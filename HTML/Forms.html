@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Forms</title>
+</head>
+<body>
+    <form>
+        <h1>Registration Form</h1>
+        Name: <input type="text" placeholder="Enter Your Name" required value="Ashton"><br><br>
+        Age: <input type="number" placeholder="Age" required><br><br>
+        Email: <input type="email"  placeholder="Email" required><br><br>
+        Password: <input type="password" placeholder="Password" required><br><br>
+        Date of birth: <input type="date"><br><br>
+        Resume: <input type="file"><br><br>
+        Favourite color: <input type="color"><br><br>
+        Country:
+        <select>
+            <option>Canada</option>
+            <option>USA</option>
+            <option>Mexico</option>
+        </select>
+        
+        Gender:
+        <input type="radio" name="gender">Male
+        <input type="radio" name="gender">Female
+        <input type="radio" name="gender">Others
+        <br><br>
+        Hobbies:
+        <input type="checkbox" name="hobbies" checked> Swimming
+        <input type="checkbox" name="hobbies">Working Out
+        <input type="checkbox" name="hobbies">Listening to Music
+        <br><br>
+        Describe your expreience<br>
+        <textarea>
+        </textarea>
+         
+        <button>Submit</button>
+    </form>
+</body>
+</html>
+
+<!-- 
+    # Forms:
+        - used to collect data from the user
+        - Tags:
+            - form: Wrapper tag for HTML Forms
+            - input: Input field for user data
+                - 'type' attribute
+                    - text: Simple text input
+                        - 'maxlength' attribute: restricts the character to the desired number
+                    - number: Number input
+                    - email: Email input (Added browser validation)
+                    - password: Password
+                    - date: Date
+                    -date-local: Date + Time
+                    - file: File upload
+                    - radio: Single selection
+                        - checked: Specific box will be selected by default 
+                    - checkbox: Mutliple selection
+                        - checked: Specific box will be selected by default 
+                - 'name' attribute: provides name for the input
+                - 'value' attribute: Default value for the input field
+                - 'placeholder' attribute: provide a hint
+                - 'required' attribute: Make any field required to submit (Browser valitdation)
+            - button: Buttons
+                 'type' attribute
+                    - submit: to submit the form
+                    - reset: to reset the form
+                    - button: random button in the form
+            - select: Dropdown (single selection)
+                - option tag: individual options
+            - textarea: larger text inputs
+                - 'rows' attribute: Number of rows
+                - 'cols' attribute: Number of columns
+                - 'maxlength' attribute: restricts the amount of characters
+
+    # Additional notes:
+    - input type="hidden"
+-->

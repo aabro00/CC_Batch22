@@ -1,0 +1,14 @@
+body {
+    background-image: url(/Projects/ConnectionsPage/assets/pexels-quang-nguyen-vinh-222549-2132126.jpg);
+    background-position: center;
+}
+
+.bg-light .bg-gradient {
+    padding: 25px;
+}
+
+@media screen and (max-width: 768px) {
+    #category-section {
+        margin-bottom: 1rem
+    }
+}

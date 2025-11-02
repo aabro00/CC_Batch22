@@ -7,10 +7,6 @@
     5. Atleast one special character ($, @, #)
     6. No easy passwords
 
-    - Additional rules:
-      - Should not contain name (Explained)
-      - Should not contain email (Explained)
-
   # Category:
     - Strong
     - Moderate
@@ -122,27 +118,3 @@ const inputPassword = prompt("Enter your password")
 console.log(inputPassword)
 
 validatePassword(inputPassword)
-
-
-/*
-  # Additional resources:
-    - https://www.w3schools.com/charsets/ref_html_ascii.asps
-
-
-  # Additional code:
-    Check: 5. Atleast one number
-    const digits = ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9']
-    // a. Iterate through each character of the password string
-    let containsDigit = false
-    for(let i = 0; i < pwd.length; i++) {
-      // b. Check whether the character is = any of the characters in digits
-      if(digits.includes(pwd[i])) {
-        console.log("Atleast one number ✅")
-        containsDigit = true
-        break
-      }
-    }
-    if(!containsDigit) {
-      console.log("Atleast one number ⚠️")
-    }
-*/
